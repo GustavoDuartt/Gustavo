@@ -2,7 +2,7 @@
 
 Este é um projeto de testes automatizados utilizando Jest e Axios para validar a resposta de diferentes endpoints da SWAPI (Star Wars API). O objetivo deste projeto é garantir que a API retorne os dados esperados sobre planetas, naves, filmes, personagens e espécies do universo Star Wars.
 
-#$ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 * Jest: Framework de testes para JavaScript.
 * Axios: Biblioteca para fazer requisições HTTP.
@@ -10,25 +10,25 @@ Este é um projeto de testes automatizados utilizando Jest e Axios para validar 
 * Funcionalidade
 * O projeto contém uma série de testes que fazem requisições à SWAPI e validam as respostas. Abaixo estão os testes que são realizados:
 
-###Testes Realizados
+### Testes Realizados
 
 *Teste 1: Verifica se a API retorna os dados corretos do planeta Tatooine.
 
-(`Endpoint: /planets/1/
+`Endpoint: /planets/1/
 Verifica se o nome do planeta é "Tatooine".
-Teste 2: Verifica se a API retorna os dados corretos do planeta Alderaan.)
+Teste 2: Verifica se a API retorna os dados corretos do planeta Alderaan.`
 
-(`Endpoint: /planets/2/
+`Endpoint: /planets/2/
 Verifica se o nome do planeta é "Alderaan".
-Teste 3: Verifica se a API retorna os dados corretos da nave Millennium Falcon.)
+Teste 3: Verifica se a API retorna os dados corretos da nave Millennium Falcon.`
 
-(`Endpoint: /starships/10/
+`Endpoint: /starships/10/
 Verifica se o nome da nave é "Millennium Falcon".
-Teste 4: Verifica se a API retorna os dados corretos da nave X-wing.)
+Teste 4: Verifica se a API retorna os dados corretos da nave X-wing.`
 
-(`Endpoint: /starships/12/
+`Endpoint: /starships/12/
 Verifica se o nome da nave é "X-wing".
-Teste 5: Verifica se a API retorna os dados corretos do filme A New Hope.)
+Teste 5: Verifica se a API retorna os dados corretos do filme A New Hope.`
 
 
 # Pré-requisitos
@@ -42,7 +42,7 @@ Clone este repositório para sua máquina local:
 ## bash
 
 Copiar código
-(`git clone https://github.com/seu-usuario/swapi-tests.git)
+`git clone https://github.com/seu-usuario/swapi-tests.git`
 
 2. Instalar as Dependências
 
